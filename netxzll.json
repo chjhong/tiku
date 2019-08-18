@@ -1,0 +1,107 @@
+{
+    "name": "测试行政高级理论",
+    "sqlist": [
+    {
+      "type": "single",
+      "uuid": "netnetzxll_2_0001",
+      "sgstem": "首次提出毛泽东思想这一概念的是：",
+      "options": [
+        { "label": "刘少奇", "key": "A" },
+        { "label": "邓小平", "key": "B" },
+        { "label": "王稼祥", "key": "C" },
+        { "label": "毛泽东", "key": "D" }
+      ],
+      "answer": "C",
+      "tooltip": "",
+      "pass": "0001"
+    },
+    {
+      "type":"single",
+      "uuid": "netzxll_2_0002",
+      "sgstem": "毛泽东思想科学体系内容由几个部分组成?",
+      "options": [
+        { "label": "四部分", "key": "A" },
+        { "label": "五部分", "key": "B" },
+        { "label": "六部分", "key": "C" },
+        { "label": "七部分", "key": "D" }
+      ],
+      "answer": "C",
+      "tooltip": "",
+      "pass": "0001"
+    },
+    {
+        "uuid":"netzxll_2_0003",
+        "sgstem": "毛泽东思想的灵魂是:",
+        "options":[
+            {"key":"A","label":"实事求是、解放思想、独立自主"},
+            {"key":"B","label":"群众路线、独立自主、开拓创新"},
+            {"key":"C","label":"实事求是、群众路线、独立自主"},
+            {"key":"D","label":"群众路线、实事求是、与时俱进"}
+        ],
+        "answer":"C",
+        "tooltip":"",
+        "pass":"0001"
+    }
+  ],
+  "mqlist": [
+    {
+      "type":"multi",
+      "description": "大段材料",
+      "muuid":"netzxll_3_1",
+      "msglist": [
+        {
+          "uuid": "netzxll_3_0001",
+          "sgstem": "以下哪些属于毛泽东思想的主要内容:",
+          "options": [
+            { "key": "A", "label": "新民主主义革命的理论" },
+            { "key": "B", "label": "社会主义革命和社会主义建设理论" },
+            { "key": "C", "label": "人民军队建设和军事战略的理论" },
+            { "key": "D", "label": "政策和策略的理论" }
+          ],
+          "answer": "ABCD",
+          "tooltip": "",
+          "pass": "0001"
+        },
+        {
+          "uuid": "netzxll_3_0002",
+          "sgstem": "在马克思主义中国化的进程中产生的理论成果有:",
+          "options": [
+            { "key": "A", "label": "科学发展观" },
+            { "key": "B", "label": "毛泽东思想" },
+            { "key": "C", "label": "邓小平理论" },
+            { "key": "D", "label": "三个代表" }
+          ],
+          "answer": "ABCD",
+          "tooltip": "",
+          "pass": "0001"
+        }
+      ]
+    }
+  ],
+  "xyqlist": [
+    {
+      "type":"xy",
+        "uuid": "netzxll_4_0001",
+      "sgstem": "社会主义初级阶段的基本经济制度是:坚持和完善按劳分配为主体、多种分配方式并存。",
+      "options": [
+        { "label": "X", "key": "X" },
+        { "label": "Y", "key": "Y" }
+      ],
+      "answer": "X",
+      "tooltip": "",
+      "pass": "0001"
+    },
+    {
+      "type":"xy",
+        "uuid": "netzxll_4_0002",
+      "sgstem": "党在社会主义初级阶段的奋斗目标是“解放和发展生产力、消灭剥削、消除两极分化、最终达到共同富裕”。",
+      "options": [
+        { "label": "X", "key": "X" },
+        { "label": "Y", "key": "Y" }
+      ],
+      "answer": "Y",
+      "tooltip": "",
+      "pass": "0001"
+    }
+  ]
+}
